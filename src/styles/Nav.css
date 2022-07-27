@@ -1,0 +1,36 @@
+
+nav {
+    background-color: var(--red);
+       
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0;
+    list-style: none;
+    padding: 0;
+    
+}
+@media (min-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: .6rem;
+    color: var(--white);
+    text-decoration: none;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+
+}
+nav ul li a:hover {
+    cursor: pointer;
+    background-color: var(--grey);
+    color: var(--black);
+    font-weight: bold;
+}

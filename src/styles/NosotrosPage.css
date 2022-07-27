@@ -1,0 +1,25 @@
+img {
+    max-width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2.4rem;
+}
+.nosotros {
+    margin: 1rem;
+}
+@media (min-width: 769px) {
+    .nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        column-gap: 1.5rem;
+        margin: 4rem 7rem;
+       
+    }
+    .nosotros_image {
+        padding: 1rem;
+    }
+}
+

@@ -1,0 +1,42 @@
+.novedades {
+    margin: 1rem 1.3rem;
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(148,148,148,0.60); /* this prefix can be deleted */
+    -moz-box-shadow: 0px 5px 15px 0px rgba(148,148,148,0.60); /* this prefix can be deleted */
+    box-shadow: 0px 5px 15px 0px rgba(148,148,148,0.60);
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.novedades h2 {
+    font-size: 2.3rem; 
+    text-align: left;
+    margin: .5rem;
+}
+
+.novedades h3 {
+    text-align: left;
+    margin: .5rem; 
+    color: var(--darkgrey);
+    font-weight: 400;
+}
+
+.img {
+    max-width: 100%;
+    margin-bottom: .3rem;
+}
+
+@media (min-width: 1280px) {
+    .novedades {
+        margin: 2rem 8rem;
+    }
+    .img_txt {
+        display: flex;
+    }
+    .txt {
+        margin: .8rem;
+    }
+    
+}

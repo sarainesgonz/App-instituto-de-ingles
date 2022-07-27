@@ -1,0 +1,22 @@
+.curso {
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid var(--grey); 
+}
+.curso:last-of-type {
+    border-bottom: none;
+}
+@media (min-width: 768px) {
+    .curso {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+        padding: 1.4rem 5rem;
+    }
+    .curso_image {
+        margin-top: 2rem;
+    }
+
+}
+.curso h3 {
+    text-align: left;
+}
